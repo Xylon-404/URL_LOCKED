@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="LOCK YOUR URLs🔐">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="google-site-verification" content="2SUTqtLYtAtyg4_k6jjkH-RX7tY7rf0SGVNETvitmv4" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>URL LOCKER</title>
+</head>
+<body>
+    <p class="XYLON">CODE-X
+    <p class="heading">URL LOCKER🔐<br> <span style="font-size: 16px;">Crafted By <a href="https://xylon.netlify.app/">@CODE-X</a> :)</span></p>
+    <div class="main-div">
+    <div class="lock_div" id="lock_div_id">
+        <p>URL🔗</p>
+        <input type="url" id="url" placeholder="https://example.com">
+        <p>KEY🔑</p>
+        <input type="password" id="url_key" placeholder="********">
+        <button id="lock_btn">Lock URL</button>
+    </div>
+    <div class="url_display" id="url_display_id">
+        <textarea id="locked_url" cols="40" rows="4" readonly></textarea>
+        <button id="copy_btn">Copy URL</button>
+        <img id="lurl_qr">
+    </div>
+</div>
+<div class="main-div2">
+    <div class="unlock_div" id="unlock_div_id">
+        <p>KEY🔑</p>
+        <input type="password" id="lurl_key" placeholder="********">
+        <button id="unlock_btn">Unlock</button>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+*{
+    font-family: 'JetBrains Mono', monospace;
+}
+body{
+    margin: 0;
+}
+.heading{
+    font-size: 45px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 120px;
+    margin-top: 100px;
+    max-width: fit-content;
+}
+.XYLON{
+    font-size: 45px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    max-width: fit-content;
+}
+.main-div, .main-div2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#lock_btn, #unlock_btn, #copy_btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 42px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4176FF;
+    color: white;
+    font-size: 16px;
+    padding: 2px;
+}
+#lock_btn:hover, #unlock_btn:hover, #copy_btn:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    transition: 200ms;
+    cursor: pointer;
+}
+.lock_div input, .unlock_div input{
+    width: 300px;
+    height: 40px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 4px;
+    font-size: 18px;
+    margin-bottom: 7px;
+    margin-top: 0;
+}
+#lurl_qr{
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+    
+}
+textarea{
+    width: 300px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 4px;
+    font-size: 15px;
+    margin-bottom: 7px;
+    margin-top: 20px;
+    resize: none;
+}
